@@ -1,0 +1,29 @@
+{
+  "name": "fantastic-smart-gem",
+  "version": "0.0.6",
+  "description": "Fantastic smart gem",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julesdecock/fantastic-smart-gem"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "fantastic",
+    "smart",
+    "gem"
+  ],
+  "author": "Jules Decock",
+  "license": "ISC",
+  "devDependencies": {
+    "@sapui5/types": "^1.122.1",
+    "typescript": "^5.4.3"
+  }
+}
